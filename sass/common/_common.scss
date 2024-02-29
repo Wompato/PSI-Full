@@ -1,0 +1,35 @@
+.section-headline {
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #222222;
+}
+
+/* Single Post Style */
+.featured-image-container {
+    position: relative;
+}
+
+/* Staff Directory Ninja Tables CSS */
+img.table-profile-picture {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Slick CSS Overrides */
+.slick-list {
+    margin: 0 25px;
+}
+
+.slick-track {
+    margin: 0;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

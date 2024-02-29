@@ -1,0 +1,24 @@
+/* Gravity Forms CSS Overrides */
+.ginput_preview_list img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gform_delete_file {
+    color: black;
+}
+
+#gform_7 .ginput_preview {
+    display: flex;
+}
+
+#gform_7 .ginput_preview .attatchment-name {
+    font-size: 12px;
+}
+
+.gpfup input {
+    border-radius: 5px;
+    width: 100%;
+}

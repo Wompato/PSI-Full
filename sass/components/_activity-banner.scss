@@ -1,0 +1,87 @@
+.activity-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.activity-banner .project-image-container img {
+    max-height: 300px;
+}
+
+.activity-banner__primary-investigator {
+    text-align: center;
+    border-left: 1px dashed rgb(34, 34, 34);
+    border-right: 1px dashed rgb(34, 34, 34);
+}
+
+.activity-banner__primary-investigator h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.activity-banner__primary-investigator a {
+    text-decoration: none;
+}
+
+.activity-banner__primary-investigator img {
+    height: 230px;
+    width: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.activity-banner__content {
+    margin: 0 15px;
+}
+
+.activity-banner__content h3 {
+    font-size: 20px;
+    max-width: 280px;
+}
+
+.activity-banner__content h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.activity-banner__content h3 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+.activity-banner .project-image {
+    border-radius: 5px;
+}
+
+.activity-banner .project-team {
+    text-align: center;
+}
+
+.activity-banner .project-team h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.activity-banner .project-team a {
+    flex-direction: initial;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.activity-banner .project-team img {
+    margin-left: 50px;
+    height: 80px;
+    width: 80px;
+}
+
+.activity-banner .project-team span {
+    margin-left: 15px;
+}
+
+.project-team-member-container {
+    overflow-y: scroll;
+    height: 270px;
+}
